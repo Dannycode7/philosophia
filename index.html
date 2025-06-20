@@ -3,149 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Genius | Philosophie & Littérature</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="navbar-container">
-            <a href="#" class="logo">Genius</a>
-            <div class="menu-toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-menu">
-                <li><a href="#home" class="nav-link">Accueil</a></li>
-                <li><a href="#philosophes" class="nav-link">Philosophes</a></li>
-                <li><a href="#ecrivains" class="nav-link">Écrivains</a></li>
-                <li><a href="#citations" class="nav-link">Citations</a></li>
-                <li><a href="#about" class="nav-link">À propos</a></li>
-            </ul>
-        </div>
+   <header id="hero">
+    <div class="head">
+         <div class="logo">
+        <h2>Philosophia</h2>
+    </div>
+    <nav id="nav">
+        <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#philo">Philosophies</a></li>
+            <li><a href="#litt">Ecrivains</a></li>
+            <li><a href="#citations">Citations</a></li>
+            <li><a href="#contact">A propos</a></li>
+        </ul>
     </nav>
-
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="hero-content">
-            <h1 class="hero-title animate-text">Explorez la sagesse des siècles</h1>
-            <p class="hero-subtitle">Découvrez les penseurs et écrivains qui ont façonné notre monde</p>
-            <a href="#philosophes" class="hero-btn">Commencer le voyage</a>
-        </div>
-        <div class="hero-scroll">
-            <span class="scroll-text">Défiler</span>
-            <div class="scroll-icon"></div>
-        </div>
-    </section>
-
-    <!-- Philosophes Section -->
-    <section class="section" id="philosophes">
-        <div class="section-header">
-            <h2 class="section-title">Grands Philosophes</h2>
-            <p class="section-subtitle">Les esprits qui ont questionné l'existence</p>
-        </div>
-        <div class="philosophes-grid">
-            <!-- Les cartes seront générées par JavaScript -->
-        </div>
-    </section>
-
-    <!-- Écrivains Section -->
-    <section class="section dark-section" id="ecrivains">
-        <div class="section-header">
-            <h2 class="section-title">Maîtres de la Littérature</h2>
-            <p class="section-subtitle">Les plumes qui ont capturé l'âme humaine</p>
-        </div>
-        <div class="ecrivains-carousel">
-            <div class="carousel-container">
-                <!-- Les éléments du carrousel seront générés par JavaScript -->
-            </div>
-            <div class="carousel-nav">
-                <button class="carousel-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
-                <button class="carousel-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+     <span id="span">☰</span>
+    </div>
+    <div class="hero">
+        <h1 class="ti">Explorez la sagesse des siecles</h1>
+        <p class="com">Decouvrer des penseurs qui ont fasconner notre monde</p>
+        <button>Commencer le voyage</button>
+    </div>
+   </header> 
+<section class="two" id="philo">
+    <h1>Grands Philosophes</h1>
+    <p>les esprits qui ont questionner l'existences</p>
+    <div class="philo-contenaire">
+        <div class="images-contenaire">
+            <img src="https://i.pinimg.com/736x/02/ba/08/02ba086f86312198a2cacca4d6cf2d03.jpg" alt="">
+            <div class="commentaire">
+               <h2>Socrate </h2>
+               <h3>470-399 av. J.-C</h3>
+                <p>Père de la philosophie occidentale, connu pour sa méthode dialectique et sa maxime "Connais-toi toi-même"</p>
+                <a href="https://fr.wikipedia.org/wiki/Socrate" target="_blank">En savoir plus</a>
             </div>
         </div>
-    </section>
-
-    <!-- Citations Section -->
-    <section class="section" id="citations">
-        <div class="section-header">
-            <h2 class="section-title">Citations Inspirantes</h2>
-            <p class="section-subtitle">Des mots qui résistent au temps</p>
-        </div>
-        <div class="quote-machine">
-            <div class="quote-container">
-                <p class="quote-text">La vie doit être comprise à reculons. Mais elle doit être vécue en avant.</p>
-                <p class="quote-author">- Søren Kierkegaard</p>
-            </div>
-            <button class="new-quote-btn">Nouvelle citation</button>
-        </div>
-    </section>
-
-    <!-- À propos Section -->
-    <section class="section about-section" id="about">
-        <div class="about-container">
-            <div class="about-content">
-                <h2 class="section-title">À propos de Genius</h2>
-                <p>Genius est une plateforme dédiée à l'exploration des grandes idées et des œuvres littéraires qui ont façonné notre civilisation. Notre mission est de rendre accessible la sagesse des siècles à travers une expérience moderne et engageante.</p>
-                <p>Nous croyons que les idées des grands penseurs et écrivains peuvent illuminer notre présent et inspirer notre futur.</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                </div>
-            </div>
-            <div class="about-image">
-                <div class="image-box">
-                    <div class="image-overlay"></div>
-                </div>
+        <div class="images-contenaire">
+            <img src="https://i.pinimg.com/736x/15/40/fd/1540fd3093e21f4a64fba73479effb63.jpg" alt="">
+            <div class="commentaire">
+                <h2>Aristote</h2>
+              <h3>384-322 av. J.-C</h3>
+                <p>Élève de Platon, fondateur du Lycée et auteur d'une œuvre encyclopédique couvrant tous les domaines du savoir</p>
+                <a href="https://fr.wikipedia.org/wiki/Aristote" target="_blank">En savoir plus</a>
             </div>
         </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-container">
-            <div class="footer-brand">
-                <a href="#" class="logo">Genius</a>
-                <p>Lumineux par nature</p>
-            </div>
-            <div class="footer-links">
-                <div class="footer-column">
-                    <h3>Explorer</h3>
-                    <ul>
-                        <li><a href="#philosophes">Philosophes</a></li>
-                        <li><a href="#ecrivains">Écrivains</a></li>
-                        <li><a href="#citations">Citations</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Ressources</h3>
-                    <ul>
-                        <li><a href="#">Livres</a></li>
-                        <li><a href="#">Articles</a></li>
-                        <li><a href="#">Podcasts</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact</h3>
-                    <ul>
-                        <li><a href="#">Email</a></li>
-                        <li><a href="#">Newsletter</a></li>
-                        <li><a href="#">Contribute</a></li>
-                    </ul>
-                </div>
+        <div class="images-contenaire">
+            <img src="https://i.pinimg.com/736x/c6/17/94/c61794e645e3d1ae6c7d3d8a7d272f33.jpg" alt="">
+            <div class="commentaire">
+                 <h2>René Descartes</h2>
+               <h3>1596-1650</h3>
+                <p>Père du rationalisme moderne, connu pour son cogito \"Je pense, donc je suis\" et sa méthode du doute</p>
+                <a href="https://fr.wikipedia.org/wiki/Ren%C3%A9_Descartes" target="_blank">En savoir plus</a>
             </div>
         </div>
-        <div class="footer-bottom">
-            <p>&copy; 2023 Genius. Tous droits réservés.</p>
+    </div>
+</div>
+    <div class="philo-contenaire2">
+        <div class="images-contenaire">
+            <img src="https://i.pinimg.com/736x/c2/55/7f/c2557fe18bfe91c02e4cf168ba859188.jpg" alt="">
+            <div class="commentaire">
+                 <h2>Platon</h2>
+               <h3>428-348 av. J.-C</h3>
+                <p>Fondateur de l'Académie, auteur des Dialogues et théoricien des Idées et de la République idéale</p>
+                <a href="https://fr.wikipedia.org/wiki/Platon" target="_blank">En savoir plus</a>
+            </div>
         </div>
-    </footer>
-
-    <script src="Script.js"></script>
+        <div class="images-contenaire">
+            <img src="https://i.pinimg.com/736x/7d/58/57/7d58577970115bad58129f44e6301af4.jpg" alt="">
+            <div class="commentaire">
+                 <h2>Immanuel Kant</h2>
+                <h3>1724-1804</h3>
+                <p>Auteur de la \"Critique de la raison pure\", il a opéré une révolution copernicienne en philosophie</p>
+                <a href="https://fr.wikipedia.org/wiki/Emmanuel_Kant">En savoir plus</a>
+            </div>
+        </div>
+        <div class="images-contenaire">
+            <img src="https://i.pinimg.com/736x/dd/a3/27/dda32712dc89197871c083b9fb16f3b9.jpg" alt="">
+            <div class="commentaire">
+            <h2>Friedrich Nietzsche</h2>
+                <h3>1844-1900</h3>
+                <p>Critique de la morale traditionnelle, théoricien de la volonté de puissance et du surhomme</p>
+                <a href="https://fr.wikipedia.org/wiki/Friedrich_Nietzsche" target="_blank">En savoir plus</a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="litterature" id="litt">
+    <h1>Maitres de la litterature</h1>
+    <p>Des mots qui resistes au temps</p>
+    <div class="litteratures-images">
+  <div class="card-litt">
+    <img src="https://i.pinimg.com/736x/8a/02/df/8a02dfdf67a361543544cc7c483123b1.jpg" alt="Personnage 1">
+    <div class="citation">
+      <h3>Victor Hugo</h3>
+      <h3>Géant de la littérature française, auteur des "Misérables" et de "Notre-Dame de Paris".</h3>
+    </div>
+  </div>
+  <div class="card-litt">
+    <img src="https://i.pinimg.com/736x/f4/bd/7d/f4bd7d559473aad41816615e84fc89b6.jpg" alt="Personnage 2">
+    <div class="citation">
+      <h3>Albert camus</h3>
+     <h3>"L'absurde naît de cette confrontation entre l'appel humain et le silence déraisonnable du monde."</h3>
+    </div>
+  </div>
+  <div class="card-litt">
+    <img src="https://i.pinimg.com/736x/d6/5c/41/d65c41a7ca238dc4fe71cf274bfaf3ba.jpg" alt="Personnage 3">
+    <div class="citation">
+      <h3>William Shakespeare</h3>
+       <h3>"Le monde entier est un théâtre, et tous les hommes et femmes n'en sont que les acteurs."</h3>
+    </div>
+  </div>
+  <div class="card-litt">
+    <img src="https://i.pinimg.com/736x/28/a4/7b/28a47bb191cf33c64a4f4db3383b95cb.jpg" alt="Personnage 4">
+    <div class="citation">
+      <h3>Boudha</h3>
+      <h3>"Ne demeurez pas dans le passé, ne rêvez pas du futur, concentrez l'esprit sur le moment présent."</h3>
+    </div>
+  </div>
+</div>
+ <div class="icone">
+            <i id="one" class="fas fa-chevron-left"></i>  <!-- gauche -->
+             <i id="two" class="fas fa-chevron-right"></i> <!-- droite -->
+        </div>
+</section>
+<section class="citations" id="citations">
+    <h1>Citacions inspirants</h1>
+    <p>Des mots qui resistent aux temps</p>
+    <div class="cartes">
+        <h2 id="cit"></h2>
+        <p id="name"></p>
+        <button onclick="changer()">Nouvelle citation</button>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h1>A propos de nous</h1>
+    <div class="contact-all">
+        <div class="contact-bloc1">
+            <h1>Tout sur Philosophia</h1>
+            <h3>Genius est une plateforme dédiée à l'exploration des grandes idées et des œuvres littéraires qui ont façonné notre civilisation. Notre mission est de rendre accessible la sagesse des siècles à travers une expérience moderne et engageante</h3>
+            <p>Nous croyons que les idées des grands penseurs et écrivains peuvent illuminer notre présent et inspirer notre futur.</p>
+             <div class="mes-reseaux">
+                 <a href="https://www.facebook.com/share/19YvyVY12w/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/243853387189" target="_blank">  <i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/danny__akd?igsh=MW90aXF2amM0ZWdwdw%3D%3D&utm_source=qr"> <i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <div class="contact-bloc2">
+        <img src="https://i.pinimg.com/736x/28/ec/56/28ec565b250394d4ab1e70883cbdfb5c.jpg" alt="">
+    </div>
+    </div>
+</section>
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>À propos de nous</h3>
+      <p>Philosophia est une plateforme dédiée à l'exploration des grandes idées et des œuvres littéraires qui ont façonné notre civilisation.</p>
+    </div>
+    <div class="footer-section">
+      <h3>Liens utiles</h3>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#philo">Philosophes</a></li>
+        <li><a href="#litt">Littérature</a></li>
+        <li><a href="#citations">Citations</a></li>
+        <li><a href="#contact">A propos</a></li>
+      </ul>
+    </div>
+    <div class="footer-section">
+      <h3>Suivez-nous</h3>
+      <div class="social-icons">
+         <a href="https://www.facebook.com/share/19YvyVY12w/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://wa.me/243853387189" target="_blank">  <i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/danny__akd?igsh=MW90aXF2amM0ZWdwdw%3D%3D&utm_source=qr"> <i class="fa-brands fa-instagram"></i></a>
+      </div>
+      <div class="footer-mail">
+  <h3>Nous ecrire sur mail</h3>
+  <p><a href="mailto:danahosakadi1@icloud.com">danahosakadi1@icloud.com</a></p>
+    </div>
+</div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 Philosophia. Tous droits réservés.</p>
+  </div>
+</footer>
+<script src="Script.js"></script>
 </body>
 </html>
