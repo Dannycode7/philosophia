@@ -1,0 +1,485 @@
+header{
+    background-color:rgb(38, 176, 211);
+    color: white;
+    height: 98vh;
+    width: 100%;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    display: inline-flex;
+    font-size: 1.4rem;
+    width: 120px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+nav ul li:hover{
+    border-bottom: solid white;
+    cursor: pointer;
+}
+span{
+    font-size: 3rem;
+    display: none;
+    position: right;
+}
+.hero{
+    margin-top: 16%;
+}
+.ti{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.com{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.hero button{
+  display: block; 
+    margin: 0 auto;
+    height: 40px;
+    width: 200px; 
+    border-radius: 10px;
+   background-color: white;
+    color:rgb(38, 176, 211);
+    border: none;
+    padding: 0 20px; 
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+.two{
+    background-color: aliceblue;
+    margin: 0%;
+}
+.two h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+      margin-bottom: 20px;
+}
+.two p{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.philo-contenaire{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.philo-contenaire2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.images-contenaire{
+    width: 400px; 
+  border-radius: 12px; 
+  overflow: hidden; 
+  background: white; 
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+  margin: 20px; 
+  height: 500px;
+}
+.images-contenaire img{
+    /* margin-left: 20px; */
+    width: 100%;
+    height: 50%;
+}
+.images-contenaire img:hover{
+    transform: scale(1.05);
+     transition: transform 0.7s ease; 
+}
+.commentaire{
+     width: 100%;
+    height: 50%;
+    background-color: white;
+    margin: 0 5px;
+}
+.commentaire h3{
+    color: rgb(38, 176, 211);
+}
+.commentaire p{
+    font-size: 20px;
+    color: darkgray;
+}
+.commentaire a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(38, 176, 211);
+}
+.litterature{
+    background-color: cadetblue;
+}
+
+.litterature h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: white;
+}
+.litterature p{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: white;
+}
+.litteratures-images{
+    display: flex;
+    justify-content: space-between;
+  overflow: hidden;
+  height: 500px;
+  gap: 20px;
+}
+.litteratures-images img {
+    width: 100%;
+    height: 400px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.citation {
+    display: none;
+    color: rgb(38, 176, 211) ;
+    width: 100%;
+    background-color: #FFF;
+    height: 50%;
+    transition: 0.3s;
+    text-align: center;
+}
+.card-litt{
+    width: 400px;
+    height: 400px;
+}
+
+.card-litt:hover .citation{
+    display: block;
+    transform: translateY(-210px);
+}
+.icone{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    cursor: pointer;
+    color:white;
+    gap: 20px;
+}
+
+.citations{
+    height: 600px;
+}
+.citations h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+.citations p{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+.citations h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.cartes{
+    justify-content: center;
+    width: auto;
+    height: auto;
+    margin: 0% 500px;
+    background-color: aliceblue;
+    align-items: center;
+}
+.cartes button{
+    display: block; 
+    margin: 0 auto;
+    height: 40px;
+    width: 200px; 
+    border-radius: 10px;
+    background-color: rgb(38, 176, 211);
+    color: white;
+    border: none;
+    padding: 0 20px; 
+    font-size: 16px;
+    cursor: pointer;
+}
+.contact-all{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    margin: 20px;
+    align-items: center;
+}
+.contact-bloc1{
+    width: 100%;
+    font-size: 2rem;
+}
+.contact-bloc2{
+    width: 100%;
+}
+.contact-bloc2 img{
+    width: 100%;
+    border-radius: 10px;
+    height: 600px;
+}
+.contact h1{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+.contact-all h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    border-bottom: solid  rgb(56, 130, 173) ;
+}
+.contact-all h3{
+    display: flex;
+    justify-content: center;
+}
+.mes-reseaux  a i{
+    margin-top: 43px;
+    width: 120px;
+    height: 80px;
+    font-size: 3rem;
+    color: rgb(56, 130, 173);
+}
+.footer {
+  background-color: rgb(38, 176, 211);
+  color: white;
+  padding: 40px 20px;
+  font-size: 2rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+  color: #94e0ff;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-icons a {
+    justify-content: center;
+  font-size: 1.8rem;
+  color: white;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #94e0ff;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  padding-top: 20px;
+  font-size: 0.9rem;
+}
+.footer-mail a{
+    color: aliceblue;
+}
+@media (max-width: 1000px){
+    *{
+        margin: 0%;
+    }
+    span{
+        display: block;
+        padding: 1rem;
+        cursor: pointer;
+    }
+    nav ul{
+        display: none;
+    }
+    li a{
+        color: rgb(38, 176, 211);
+    }
+    nav.active ul{
+        display: flex;
+        flex-direction: column;
+        background-color: aliceblue;
+        color: rgb(38, 176, 211);
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        z-index: 1000;
+        padding: 1rem;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease;
+    }
+    
+   
+    nav ul li {
+        margin: 15px 0;
+    }
+    
+    nav ul li a {
+        padding: 10px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .ti{
+        font-size: 2rem;
+    }
+    .com{
+        font-size: 1.7rem;
+    }
+    .hero button{
+        margin: 0%;
+        width: 80%;
+        max-width: 300px;
+        margin: 0 auto 20px;
+    }
+    .hero{
+        justify-content: center;
+        align-items: center;
+        margin: 125px 0px;
+    }
+
+    .two{
+        margin: 0%;
+    }
+    .two h1{
+        font-size: 2.7rem;
+    }
+    .twop p{
+        font-size: 1rem;
+    }
+    .philo-contenaire{
+        flex-wrap: wrap;
+        margin: 0%;
+        align-items: center;
+    }
+    .philo-contenaire2{
+        flex-wrap: wrap;
+        margin: 0%;
+        align-items: center;
+    }
+    .litterature h1{
+        font-size: 2.1rem;
+    }
+    .litterature p{
+        font-size: 1.5rem;
+    }
+    .litteratures-images{
+        flex-wrap: wrap;
+        margin: 0%;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    .citations{
+        width: 100%;
+        margin: 0%;
+    }
+    .citations h1{
+        font-size: 2rem;
+    }
+    .citations p{
+        font-size: 1.6rem;
+    }
+    .cartes{
+        width: 100%;
+        margin: 0%;
+        height: auto;
+    }
+    .cartes button {
+        width: 80%;
+        max-width: 300px;
+        margin: 0 auto 20px;
+    }
+    .card-litt{
+         flex-wrap: wrap;
+        margin: 0%;
+        align-items: center;
+    }
+    .contact h1{
+        color:  rgb(38, 176, 211);
+    }
+    .contact-all{
+        flex-wrap: wrap;
+        font-size: 1.3rem;
+    }
+    .contact-all h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-bloc1 h3{
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+    .contact-bloc1 h1{
+        font-size: 1.9rem;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-section {
+        text-align: center;
+    }
+    .mes-reseaux a i{
+        display: inline-flex;
+        width: 80px;
+        justify-content: center;
+    }
+    .footer-mail{
+        font-size: 1.6rem;
+    }
+    .footer-section a i{
+        display: inline-flex;
+        justify-content: center;
+    }
+}
