@@ -158,6 +158,7 @@ span{
 .card-litt{
     width: 400px;
     height: 400px;
+    color: rgb(38, 176, 211);
 }
 
 .card-litt:hover .citation{
