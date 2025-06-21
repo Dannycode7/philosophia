@@ -344,6 +344,8 @@ span{
       }
     *{
         margin: 0%;
+        user-select: none;
+        scroll-behavior: smooth;
     }
     span{
         display: block;
@@ -370,7 +372,7 @@ span{
         padding: 1rem;
         align-items: center;
         justify-content: center;
-        transition: transform 0.3s ease;
+        transition: 10ms;
     }
     
    
